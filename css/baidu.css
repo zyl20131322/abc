@@ -1,0 +1,338 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 12px arial;
+}
+
+
+
+}
+
+.wrapper {
+    position: relative;
+    min-height: 600px;
+    min-width: 810px;
+    height: 100%;
+}
+
+header {
+    overflow: hidden;
+}
+
+header nav {
+    float: right;
+    margin: 19px 0 5px 0;
+    padding: 0 140px 0 0;
+    font-size: 0;
+}
+
+header nav a {
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: underline;
+    color: #333;
+    line-height: 24px;
+    display: inline-block;
+}
+
+header nav .bold {
+    font-weight: 700;
+}
+
+header nav a:hover {
+    color: #00c;
+}
+
+
+
+
+/*更多产品*/
+header nav .more {
+    top: 19px;
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 23px;
+    color: #fff;
+    background: #38f;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #38f;
+    margin-left: 19px;
+    margin-right: 2px;
+    text-decoration: none;
+    display: block;
+}
+
+header nav .more:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content {
+    text-align: center;
+    font-size: 0px;
+    margin: 0 auto;
+}
+
+.content .search-input {
+    width: 534px;
+    height: 34px;
+    display: inline-block;
+    font-size: 15px;
+    border: 1px solid #b6b6b6;
+    border-right-width: 0;
+    vertical-align: top;
+    padding-left: 5px;
+    border-color: #b8b8b8 transparent #ccc #b8b8b8;
+    outline: none;
+}
+
+.content .search-input:hover {
+    border-color: #999 transparent #b3b3b3 #999;
+}
+
+.content .search-input:focus {
+    border-color: #4791ff transparent #4791ff #4791ff;
+}
+
+.search-btn {
+    width: 100px;
+    height: 36px;
+    color: #fff;
+    background: #3385ff;
+    font-size: 15px;
+    display: inline-block;
+    border: 0px;
+    vertical-align: top;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #2d78f4;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #317ef3;
+}
+
+.ftcon,
+.ftcon a {
+    color: #999;
+    text-align: center;
+}
+
+.h a {
+    margin-left: 25px;
+}
+
+
+
+
+
+/*footer中的图标*/
+.cp .c-icon-icrlogo,
+.c-icon-jgwablogo {
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    overflow: hidden;
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_5859e57.png) no-repeat;
+}
+
+.cp .c-icon-jgwablogo {
+    background-position: -623px -96px;
+    position: relative;
+    top: 3px;
+}
+
+.cp .c-icon-icrlogo {
+    background-position: -600px -96px;
+    position: relative;
+    top: 3px;
+}
+
+
+
+
+
+/*相机图标*/
+.soutu-btn {
+    z-index: 1;
+    position: absolute;
+    margin: 9px 0px 9px -30px;
+    height: 16px;
+    width: 18px;
+    background: #fff url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_5606e8f.png) no-repeat;
+}
+
+.soutu-btn:hover {
+    background-position: 0 -20px;
+}
+
+.ftcon {
+    margin: 20px auto;
+}
+
+.baidulogo {
+    margin-bottom: 20px;
+}
+
+.qrcode-text {
+    color: #666;
+    line-height: 23px;
+    margin: 3px 0 0 5px;
+}
+
+.qrcode-item {
+    margin: 180px auto 0;
+    text-align: center;
+}
+
+
+
+
+
+/*二维码图片*/
+.qrcode-img {
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png) 0 0 no-repeat;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+.moreproduct {
+    display: none;
+    width: 81px;
+    height: 100%;
+    font-size: 13px;
+    border-left: 1px solid #e9e9e9;
+    text-align: center;
+    background-color: #f9f9f9;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-height: 600px;
+}
+
+.mptitle {
+    color: #000;
+    width: 60px;
+    line-height: 24px;
+    padding: 19px 12px 0 9px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.mplink a {
+    display: inline-block;
+    width: 62px;
+    border-bottom: 1px solid #f0f0f0;
+    color: #666;
+    padding: 5px 0;
+    text-decoration: none;
+    font-size: 12px;
+}
+.mplink a:hover {
+    text-decoration: underline;
+}
+.mplink .mpevenmore a {
+    text-decoration: underline;
+    border-bottom: 0;
+    width: auto;
+}
+
+.mplink .bdbriimgitem_1 {
+    background-position: 0 0;
+}
+
+.mplink .bdbriimgitem_2 {
+    background-position: -36px 0;
+}
+
+.mplink .bdbriimgitem_3 {
+    width: 40px;
+    background-position: -72px 0;
+}
+
+.mplink .bdbriimgitem_4 {
+    background-position: -112px 0;
+}
+
+.mplink .bdbriimgitem_5 {
+    background-position: -148px 0;
+}
+
+.mplink .bdbriimgitem_6 {
+    background-position: -184px 0;
+}
+
+.mplink span {
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 10px auto 5px;
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/bdbri_icons_0a62ce1.png) no-repeat;
+}
+
+.setting-menu {
+    width: 46px;
+    height: 24px;
+    font-size: 13px;
+    position: absolute;
+    right: 95px;
+    margin-top: -24px;
+    text-align: center;
+}
+.setting-menu:hover .baidu-setting {
+    display: block;
+}
+
+
+/*设置下拉菜单*/
+.setting-menu .baidu-setting {
+    position: absolute;
+    top: 25px;
+    left: 3px;
+    width: 60px;
+    border: 1px solid #d8d8d8;
+    z-index: 99;
+    display: none;
+}
+
+.setting-menu .setting-icon {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: -11px;
+    left: 25px;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #d8d8d8;
+}
+.setting-menu .setting-icon::after {
+    content: "";
+    height: 0;
+    width: 0;
+    top: -4px;
+    left: -5px;
+    position: absolute;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #ffffff;
+}
+
+
+.setting-menu .baidu-setting a {
+    margin-left: 0;
+    text-decoration: none;
+    color: #333;
+    width: 100%;
+    font-size: 12px;
+}
+
+.setting-menu .baidu-setting a:hover {
+    color: #ffffff;
+    background-color: #38f;
+}
